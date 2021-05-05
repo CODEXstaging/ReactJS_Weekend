@@ -6,10 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import Pizza from './Pizza';
 import Human from './Human';
 import Food from './Food';
+import IPL from './IPL';
 
 
 ReactDOM.render(
-  <Food/>, //root component
+  <IPL/>,
+  // <Food/>, //root component
   // <Human heart="1" />,
   //  <Pizza topping="chicken" cheese="double"  /> ,//passing the data as attribute
   document.getElementById('root')

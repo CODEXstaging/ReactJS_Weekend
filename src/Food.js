@@ -31,18 +31,35 @@ export default class Food extends Component {
         })
     }   
 
-
+    //name change - event handler 
+    onNameChange=(event)=>this.setState( {name:event.target.value})
+    //on price change - event handler
+    onPriceChange=(event)=>this.setState({price:event.target.value})
+    //submit button handler
+    onSubmit=()=>console.log(JSON.stringify(this.state))
 
     render() {
         return (
             <div>
                 <div>{this.state.name}</div>
                 <div>{this.state.price}</div>
-                <button onClick={ ()=>this.changeName("Chapathi") }>Change Food</button>
-                <button onClick={ ()=>this.changePrice(40)}>Change Price</button>
+                <div>
+                    <input type="text"  placeholder="Enter item name" onChange={this.onNameChange} />
+                </div>
+                <div>
+                    <input type="number"  placeholder="Enter item price" onChange={this.onPriceChange}/>
+                </div>
+                <button onClick={this.onSubmit}>submit</button>
+
+
+
+
+
+
+                {/* <button  onClick={ ()=>this.changeName("Chapathi") }>Change Food</button>
+                <button onClick={ ()=>this.changePrice(40)}>Change Price</button> */}
                 We are inside Food Component
             </div>
         )
     }
 }
-rcc

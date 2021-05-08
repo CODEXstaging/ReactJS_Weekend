@@ -10,8 +10,18 @@ export default class IPL extends Component {
                 name:"RCB",matches:7, win:5,loss:2
             },{
                 name:"CSK",matches:7, win:5,loss:2
-            }]
+            }] 
+            ,
+            devName:""
+
         }
+    }
+    receiveDataFromChild=(dataFromChild)=>{
+        console.log("receiving data from the child")
+        console.log(dataFromChild)
+        this.setState({
+            devName:dataFromChild
+        })
     }
     render() {
         return (
@@ -40,7 +50,8 @@ export default class IPL extends Component {
                         </tr> )}
                    </tbody>
                </table>
-            <Trophy   winner={this.state.teams[0].name}/>
+                    {this.state.devName}
+            <Trophy   winner={this.state.teams[0].name}    receiveData={this.receiveDataFromChild} />
 
 
                {/* { this.state.teams.map(  (team,index)=> <div key={index}>{ team}</div> ) } */}

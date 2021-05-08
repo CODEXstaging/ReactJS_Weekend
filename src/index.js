@@ -7,10 +7,11 @@ import Pizza from './Pizza';
 import Human from './Human';
 import Food from './Food';
 import IPL from './IPL';
+import Person1 from './Person1';
 
 
 ReactDOM.render(
-  <IPL/>,
+  <Person1/>,
   // <Food/>, //root component
   // <Human heart="1" />,
   //  <Pizza topping="chicken" cheese="double"  /> ,//passing the data as attribute

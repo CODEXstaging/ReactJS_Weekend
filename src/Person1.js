@@ -10,7 +10,6 @@ export default class Person1 extends Component {
 
                 <PersonProvider value="Naveen">
                     <Person2/>
-                    <Music />
                 </PersonProvider>
 
             </div>

@@ -8,10 +8,11 @@ import Human from './Human';
 import Food from './Food';
 import IPL from './IPL';
 import Person1 from './Person1';
+import Ajax from './Ajax';
 
 
 ReactDOM.render(
-  <Person1/>,
+ <Ajax/>,
   // <Food/>, //root component
   // <Human heart="1" />,
   //  <Pizza topping="chicken" cheese="double"  /> ,//passing the data as attribute

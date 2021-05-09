@@ -12,7 +12,7 @@ export default class Trophy extends Component {
 
     //step 2: we have to handle onClick event
     sendData=()=>{
-        this.props.receiveData(this.state.name)
+        this.props.receiveData(this.state.name) //amrutha
     }
 
     render() {

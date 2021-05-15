@@ -9,10 +9,12 @@ import Food from './Food';
 import IPL from './IPL';
 import Person1 from './Person1';
 import Ajax from './Ajax';
+import Login from './Login';
+import Register from './Register';
 
 
 ReactDOM.render(
- <Ajax/>,
+ <Register/>,
   // <Food/>, //root component
   // <Human heart="1" />,
   //  <Pizza topping="chicken" cheese="double"  /> ,//passing the data as attribute

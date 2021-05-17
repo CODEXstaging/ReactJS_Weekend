@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 export default class Login extends Component {
 
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         this.state={
             emailRequired:"",
             passwordRequired:"",
@@ -15,6 +16,8 @@ export default class Login extends Component {
     loginUser=()=>{
         console.log('inside login')
         console.log(JSON.stringify(this.state))
+        //navigate to home component
+        this.props.history.push("/home")     
     }
 
     checkEmail=(e)=>{
@@ -70,6 +73,7 @@ console.log("inside check email button")
                             Cancel
                         </button>
                     </div>
+                    <div>New User? Please <Link to="/register"  >Register</Link> </div>
                 </form>
             </div>
         )

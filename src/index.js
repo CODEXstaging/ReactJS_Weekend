@@ -11,10 +11,11 @@ import Person1 from './Person1';
 import Ajax from './Ajax';
 import Login from './Login';
 import Register from './Register';
+import Root from './Root';
 
 
 ReactDOM.render(
- <Register/>,
+ <Root/>,
   // <Food/>, //root component
   // <Human heart="1" />,
   //  <Pizza topping="chicken" cheese="double"  /> ,//passing the data as attribute

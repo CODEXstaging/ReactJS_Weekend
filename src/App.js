@@ -1,19 +1,12 @@
 function App() {
-
-  // 1st part: Javascript code
-  //var[ES5] , let. let keyword [ES6]
-  let dev="Rakesh"
-
-  //2nd part: JSX
-  return ( 
+  let devName="Sudarshan"
+  let exp=2
+  return (
     <div>
-      <div>Welcome {dev} </div>
-      <div>We are learning ReactJS.</div>
-      <div>This is the No. 1 library for frontend</div>
-      <p>THis is paragraph</p>
+      Hi  { devName},
+      your exp is : {exp}
+      we are learning react
     </div>
-  );  
+  );
 }
- 
-// permission to access this component in other files
 export default App;

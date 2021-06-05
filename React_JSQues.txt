@@ -1,0 +1,33 @@
+1) What is package.json
+2) what is package-lock.json
+3) What is react JS 
+4) what is Ajax and how do we achieve it in react
+5) How do we configure Routing in React
+6) React forms and validation
+7) What is JSX 
+8) Different types of components
+9) Difference between state and props
+10) Is state mutable or immutable?
+11) how do we change the state in Component
+12) What is Redux and how do you configure it.
+13) Component Lifecycle
+14) Difference between NPM and NPX
+15) React CLI
+16) How do you achieve component interaction in ReactJS
+17) What is Virtual DOM
+18) What is reducer? how do we configure it.
+19) Why do we use Node_modules
+20) What is Props
+21) What is Spread Operator 
+22) What is the difference between Fat Arrow and anonymous fn
+23) Why do we use redux and what is the functionality of reducer
+24) Why do we use Keys in React.[used in map/forEach fn in render]
+25) What is Babel 
+26) What is single source of truth
+27) What is Reconcilation?
+28) What is SSR?
+29)Pure Functions?
+30) What is Context?
+31) What are Hooks and different Hooks?
+32) What is Error Boundary and how do we use it?
+
